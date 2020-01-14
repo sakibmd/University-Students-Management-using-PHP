@@ -1,0 +1,148 @@
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+
+.panel-view{
+	background: url('../img/panel-view.jpg');
+	background-attachment: fixed;
+	background-size: cover; 
+}
+
+/*cover*/
+#cover{
+	background: url('../img/img11.gif');
+	background-attachment: fixed;
+	background-size: cover;
+	height: 460px;
+	/*margin-top: 25px;*/
+
+}
+
+#cover .head{
+	margin-top: 33px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	font-family: 'Inconsolata';
+	color: #fff;
+}
+#cover .lead{
+	margin-bottom: 20px;
+	color: #fff;
+}
+#cover .btn-default{
+	display: block;
+        margin-left: auto; 
+        margin-right: auto;
+        border: none;
+        border-radius: 45px;
+        transition: 1s;
+}
+.btn-default:hover{
+	background: black;
+	color: white;
+}
+
+
+
+#footer{
+	padding: 60px 0px 0px 0px;
+	background:   #0b0220  ;
+	color: white;
+	margin: 0%;
+}
+#footer .col-md-4{
+	padding: 0px 20px;
+}
+
+#footer .fas{
+	color: #a377fe;
+	font-size:55px; 
+	margin-bottom: 20px;
+}
+#footer .fa-check{
+	color: white;
+	font-size: 22px;
+	margin-right: 12px;
+}
+#footer .head{
+	font-family: 'Inconsolata';
+	padding-bottom: 18px;
+	font-weight: bold;
+}
+#footer .para{
+	padding-top: 10px;
+}
+#footer a{
+	text-decoration: none;
+	color: white;
+}
+#footer .btn-default{
+	border-color: white;
+	background:transparent;
+	color: white;
+	margin-top: 18px;
+	margin-bottom: 20px;
+}
+#footer .btn-default:hover{
+	border-color: white;
+	background:white;
+	color: black;
+	margin-top: 18px;
+}
+#footer .form-control{
+	box-shadow: none!important;
+	border: none;
+	border-radius: 50px;
+	margin-top: 25px;	
+}
+#footer hr{
+	background-color: white;
+}
+#footer .credit{
+	margin-bottom: 0%;
+	padding: 0px 6px;
+	padding-bottom: 15px;
+}
+
+.record ul li .list-group-item{
+	background: #000;
+	color: white;
+}
+
+
+
